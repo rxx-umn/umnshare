@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#2D2D2D"
+    android:padding="16dp"
+    android:weightSum="1">
+
+    <!-- Bagian Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- Gambar Profil -->
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/user"
+            android:background="@drawable/circle_shape"
+            android:layout_marginEnd="40dp" />
+
+        <!-- Tombol Everyone -->
+        <Button
+            android:id="@+id/everyoneButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Everyone"
+            android:backgroundTint="#6A6A6A"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="45dp" />
+
+        <!-- Ikon Pesan -->
+        <ImageView
+            android:id="@+id/messageIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_message"
+            app:tint="#FFFFFF"
+            android:layout_marginStart="45dp"
+            android:layout_marginEnd="45dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.3" />
+
+    <!-- Gambar Post dari Firebase -->
+    <ImageView
+        android:id="@+id/postImage"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:padding="16dp" />
+
+    <!-- Caption dari Firebase -->
+    <TextView
+        android:id="@+id/postCaption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/rounded_background"
+        android:layout_gravity="center_horizontal"
+        android:padding="8dp" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.7" />
+
+    <!-- Bagian Footer (Kolom Pesan dan Tombol Kirim) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="12dp"
+        android:background="#2D2D2D">
+
+        <!-- Kolom Pesan -->
+        <EditText
+            android:id="@+id/messageInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Send message..."
+            android:background="@drawable/rounded_edittext"
+            android:textColor="#FFFFFF"
+            android:padding="12dp" />
+
+        <!-- Emoji -->
+        <ImageView
+            android:id="@+id/emojiIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/wow"
+            app:tint="#FFFFFF"
+            android:layout_marginStart="12dp" />
+
+        <!-- Tombol Kirim -->
+        <ImageView
+            android:id="@+id/sendMessageIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_send"
+            app:tint="#FFFFFF"
+            android:layout_marginStart="12dp" />
+    </LinearLayout>
+
+</LinearLayout>

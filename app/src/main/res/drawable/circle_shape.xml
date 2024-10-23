@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Warna latar belakang untuk lingkaran -->
+    <solid android:color="@android:color/transparent" />
+
+    <!-- Radius lingkaran untuk membulatkan seluruh sisi -->
+    <corners android:radius="100dp" /> <!-- Nilai radius yang sangat besar untuk membuat lingkaran sempurna -->
+
+    <!-- Stroke atau garis tepi lingkaran (opsional) -->
+    <stroke
+        android:width="2dp"
+        android:color="#FFFFFF" /> <!-- Warna putih dengan lebar 2dp -->
+</shape>

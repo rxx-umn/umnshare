@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#3D2E2E"
+    android:padding="24dp"
+    android:weightSum="1">
+
+<!-- Emoji / Icons Bar -->
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_marginBottom="24dp">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/internet"
+        android:layout_marginEnd="12dp"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/gift"
+        android:layout_marginEnd="12dp"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/camera"
+        android:layout_marginEnd="12dp"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/wow"
+        android:layout_marginEnd="12dp"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/cloud"
+        android:layout_marginEnd="12dp"/>
+</LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"/>
+
+
+<!-- Logo Text -->
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="USHARE"
+    android:textColor="#828282"
+    android:textSize="28sp"
+    android:textStyle="bold"
+    android:layout_gravity="start"
+    android:layout_marginBottom="12dp"/>
+
+<!-- Catch Phrase -->
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Capture \nYour \nMoment."
+    android:textColor="#ffffff"
+    android:textSize="50sp"
+    android:textStyle="bold"
+    android:layout_gravity="start"
+    android:layout_marginBottom="48dp"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"/>
+
+
+<!-- Sign Up Button -->
+<Button
+    android:id="@+id/btnSignUp"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:text="Sign Up"
+    android:background="@drawable/rounded_button"
+    android:textColor="#ffffff"
+    android:layout_gravity="center"
+    android:textStyle="bold"
+    android:layout_marginBottom="16dp"/>
+
+<!-- Sign In Text -->
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Already registered? Sign In"
+    android:textColor="#ffffff"
+    android:textSize="16sp"
+    android:gravity="center"
+    android:clickable="true"
+    android:focusable="true"/>
+</LinearLayout>

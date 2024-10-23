@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "623174165476",
+    "project_id": "utslec2",
+    "storage_bucket": "utslec2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623174165476:android:84b12a58f2d2a46f01ddf1",
+        "android_client_info": {
+          "package_name": "com.example.uts_lec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623174165476-ffr9c3nr2i1ij0lip9a76rttdgr52k60.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.uts_lec",
+            "certificate_hash": "70fdc873be44c4548702d3defc9b008c9e9865a5"
+          }
+        },
+        {
+          "client_id": "623174165476-vm8b2i709ovtd9crpiugnpou87qv6m2k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSmSDQKO4HsgaMti4HnDeQy2behSyD4SM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623174165476-vm8b2i709ovtd9crpiugnpou87qv6m2k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
